@@ -129,6 +129,7 @@
             &:hover {
                 background: #EDEDED;
                 color: #000000;
+                text-decoration: underline;
             }
 
         }
@@ -151,6 +152,11 @@
     .LinkList {
         display: flex;
         gap: 4px;
+
+        & li:hover{
+            background: #355a643a;
+            border-radius: 100px;
+        }
     }
 }
 
