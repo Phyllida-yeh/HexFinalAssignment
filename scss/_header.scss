@@ -46,8 +46,9 @@
         color: #0027D5;
         gap: 10px;
         margin-bottom: 16px;
+        list-style-type: none;
 
-        li a{
+        li a {
             color: #FBFBFB;
             background: #0027D5;
             padding: 6px 12px;
@@ -55,20 +56,24 @@
             font-size: 16px;
         }
 
-       
+
     }
-    & time {        
+
+    & time {
         font-weight: 500;
         font-size: 16px;
         margin-bottom: 4px;
-             
+
     }
+
     & ul {
         font-weight: 500;
         font-size: 24px;
     }
+
     & h3 {
         font-weight: 700;
         font-size: 28px;
+        line-height: 150%;
     }
 }

@@ -110,8 +110,8 @@ body {
     line-height: 1;
 }
 
-ol,
-ul {
+ol,ul
+{
     list-style: none;
 }
 
@@ -137,3 +137,21 @@ table {
 a{
     text-decoration: none;
 }
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+// * {
+//     outline: 1px solid gray;
+// } 
+
+
+.header,
+.banner,
+.main,
+.contact
+{
+    background: #FBFBFB;
+}
+
